@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "В напутствие постигающим этот непростой путь"
-preview_image:
+preview_image: way.jpeg
 published_at: "29 июня 2023 г."
 ---
 
