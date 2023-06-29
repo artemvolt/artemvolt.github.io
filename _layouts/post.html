@@ -2,16 +2,19 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+<article class="post container">
+  <div class="sharing">
+    <script src="https://yastatic.net/share2/share.js"></script>
+    <div class="ya-share2" data-curtain data-shape="round" data-limit="5" data-services="messenger,vkontakte,odnoklassniki,telegram,twitter,viber,whatsapp,moimir,skype,tumblr,evernote,linkedin,lj,blogger,delicious,digg,reddit,pocket,qzone,renren,sinaWeibo,surfingbird,tencentWeibo"></div>
+  </div>
 
-  <div class="entry">
+  <header>{{ page.title }}</header>
+
+  <div class="published-at">
+    <div class="btn btn-primary disabled btn-sm">{{ page.published_at }}</div>
+  </div>
+
+  <div class="post-content">
     {{ content }}
   </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
 </article>

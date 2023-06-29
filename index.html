@@ -1,19 +1,28 @@
 ---
 layout: default
+title: Блог Волторнистого Артёма
+description: Делюсь мыслями, опытом, заметками
 ---
 {% include author_block.html %}
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<div class="articles">
+    {% for post in site.posts %}
+        <article class="post container">
+            <header>{{ post.title }}</header>
+            {% if post.preview_image %}
+                <div class="preview-image">
+                    <img src="/images/articles/{{ post.preview_image }}">
+                </div>
+            {% endif %}
+            <div class="published-at">
+                <div class="btn btn-primary disabled btn-sm">{{ post.published_at }}</div>
+            </div>
+            <div class="announce">
+                {{ post.excerpt }}
+            </div>
+            <div class="continue">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Читать далее</a>
+            </div>
+        </article>
+    {% endfor %}
 </div>
