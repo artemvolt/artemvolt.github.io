@@ -145,11 +145,14 @@ article.post {
   margin-bottom: 10px;
 }
 
-.post header {
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-weight: bold;
+.post {
+  header, h1 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
+
 
 .sharing {
   margin: 10px 0;
