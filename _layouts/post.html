@@ -10,6 +10,12 @@ layout: default
 
   <h1>{{ page.title }}</h1>
 
+  {% if page.preview_image %}
+    <div class="preview-image">
+      <img src="/images/articles/{{ page.preview_image }}">
+    </div>
+  {% endif %}
+
   <div class="published-at">
     <div class="btn btn-primary disabled btn-sm">{{ page.published_at }}</div>
   </div>
