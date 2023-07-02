@@ -1,2 +1,2 @@
 User-agent: *
-Host: artemvolt.ru
+Host: https://artemvolt.ru
