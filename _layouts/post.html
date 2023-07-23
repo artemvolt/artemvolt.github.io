@@ -23,4 +23,10 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+
+  {% if page.telegramPostIdForComments %}
+    <div class="telegram-comment-link">
+      <a href="https://t.me/artemvolt_channel/{{ page.telegramPostIdForComments }}" class="btn btn-primary btn-sm" target="_blank">Комментировать в телеге</a>
+    </div>
+  {% endif %}
 </article>

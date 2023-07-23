@@ -3,6 +3,7 @@ layout: post
 title: "В напутствие постигающим этот непростой путь"
 preview_image: way.jpeg
 published_at: "29 июня 2023 г."
+telegramPostIdForComments: 8
 ---
 
 Возможно, вы хотите попробовать новую для себя сферу ит по разным причинам.  
