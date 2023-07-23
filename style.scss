@@ -138,6 +138,11 @@ article.post {
 .post-content {
   text-align: justify;
   font-size: 16px;
+  line-height: 26px;
+
+   a {
+     border-bottom: 1px solid #007bff4d;
+   }
 }
 
 .published-at {
