@@ -9,5 +9,15 @@
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
 
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+
+    {% if page.excerpt %}
+        <meta name="description" content="{{ page.excerpt | strip_html }}" />
+        <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+    {% else %}
+        <meta name="description" content="{{ site.description }}">
+        <meta property="og:description" content="{{ site.description }}" />
+    {% endif %}
+
     <meta name="yandex-verification" content="3e6f75aaf73fd373" />
     <meta name="google-site-verification" content="fnhULMNrsUluqrjkRSnRnk_Z0LnUlfpheIpWbetMv-Q" />
