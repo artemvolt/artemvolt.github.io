@@ -10,3 +10,4 @@ node_modules
 package.json
 .idea
 .tmp
+docker/yii2-docker/*

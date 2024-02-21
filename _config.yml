@@ -57,6 +57,8 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
+markdown: kramdown
+
 gems:
   - jekyll-sitemap
 
