@@ -3,6 +3,7 @@ layout: post
 title: "Уважительное отношение"
 preview_image: 6-uvazenie.jpg
 published_at: "10 декабря 2023 г."
+telegramPostIdForComments: 14
 ---
 
 Я проходил этап, когда мне доставалось старое жуткое легаси, покрытое коркой земли со времен мамонтов : ) 
