@@ -2,7 +2,8 @@
 layout: post
 title: "Rate Limiter"
 preview_image: 9-rate-limiter.jpeg
-published_at: "14 февраля 2024 г."
+published_at: "18 февраля 2024 г."
+telegramPostIdForComments: 20
 ---
 
 Во многих фреймворках, таких как Laravel, Symfony, yii2, yii3 существуют механизмы для управления кол-вом запросов к тем или иным разделам сайта. Лимиты используются для контроля над количеством объектов или действий, которые пользователь может выполнить за определенный период времени.  
@@ -92,6 +93,7 @@ class IpRateLimiter implements RateLimitInterface
 }
 ```
 Добавляю класс в конфиг приложения 'app/config/web.php':
+
 ```php
     'container' => [
         'definitions' => [
@@ -108,6 +110,7 @@ class IpRateLimiter implements RateLimitInterface
 ```
 
 Подключу теперь его в свой контроллер:
+
 ```php
 <?php
 
