@@ -9,5 +9,5 @@ Gemfile.lock
 node_modules
 package.json
 .idea
-.tmp
+.tmp/
 docker/yii2-docker/*

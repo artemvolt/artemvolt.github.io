@@ -34,6 +34,10 @@ url: "https://artemvolt.ru"
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+article_tags:
+  - { name: research, label: исследование }
+  - { name: yii3, label: yii3 }
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
