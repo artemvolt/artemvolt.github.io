@@ -198,3 +198,34 @@ article.post {
     text-decoration: none;
   }
 }
+
+.tag-header {
+  margin-top: 18px;
+  margin-bottom: 30px;
+
+  .tag:hover {
+    color: white;
+    background: #007bff;
+    text-decoration: none;
+  }
+}
+
+.tag {
+  display: inline-block;
+  vertical-align: middle;
+  background: #007bff;
+  color: white;
+  padding: 4px 6px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 3px;
+  text-decoration: none;
+  -webkit-transition: .4s;
+  transition: .4s;
+
+  &:hover {
+    color: white;
+    background: red;
+    text-decoration: none;
+  }
+}

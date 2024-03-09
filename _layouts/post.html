@@ -33,7 +33,7 @@ layout: default
   {% assign selected_tags = site.article_tags | where_exp:"tag", "page.tags contains tag.name" %}
   <div class="tags">
     {% for selected_tag in selected_tags %}
-      <a class="tag" href="/tag/{{ selected_tag.name }}">#{{ selected_tag.label }}</a>
+      <a class="tag" href="/tags/{{ selected_tag.name }}">#{{ selected_tag.label }}</a>
     {% endfor %}
   </div>
 </article>
