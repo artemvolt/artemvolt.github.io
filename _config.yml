@@ -35,8 +35,11 @@ url: "https://artemvolt.ru"
 baseurl: ""
 
 article_tags:
-  - { name: research, label: исследование }
+  - { name: research, label: Исследование }
   - { name: yii3, label: yii3 }
+  - { name: debug, label: Отладка }
+  - { name: education, label: Развитие }
+  - { name: life, label: "Из жизни" }
 
 #
 # !! You don't need to change any of the configuration flags below !!
