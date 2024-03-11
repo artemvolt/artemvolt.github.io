@@ -2,7 +2,7 @@
 layout: post
 title: "Rate Limiter"
 preview_image: 9-rate-limiter.jpeg
-published_at: "18 февраля 2024 г."
+published_at: "25 февраля 2024 г."
 telegramPostIdForComments: 20
 tags: ["research", "yii2"]
 ---
