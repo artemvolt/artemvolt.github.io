@@ -2,7 +2,7 @@
 layout: post
 title: "Yii3 Rate limiter"
 preview_image: 11-rate-limiter.jpeg
-published_at: "4 марта 2024 г."
+published_at: "8 марта 2024 г."
 tags: ["research", "yii3"]
 ---
  

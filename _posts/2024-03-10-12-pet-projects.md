@@ -2,7 +2,7 @@
 layout: post
 title: "Польза пет-проектов (pet projects)"
 preview_image: 12-pet-projects.jpeg
-published_at: "4 марта 2024 г."
+published_at: "10 марта 2024 г."
 tags: ["education", "life"]
 ---
  
