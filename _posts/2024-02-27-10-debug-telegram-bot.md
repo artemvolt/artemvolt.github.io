@@ -2,7 +2,7 @@
 layout: post
 title: "Локальная отладка telegram бота"
 preview_image: 10-preview.jpg
-published_at: "3 февраля 2024 г."
+published_at: "3 марта 2024 г."
 tags: ["debug"]
 ---
 
