@@ -14,7 +14,13 @@ layout: default
     <div class="preview-image">
       <img src="/images/articles/{{ page.preview_image }}">
     </div>
+    {% if page.source %}
+      <div class="author-image">
+        Автор фото <a target="_blank" href="{{ page.source.author.link }}">{{ page.source.author.name }}</a> с сайта <a target="_blank" href="{{ page.source.image.link }}">Unsplash</a>
+      </div>
+    {% endif %}
   {% endif %}
+
 
   <div class="published-at">
     <div class="btn btn-primary disabled btn-sm">{{ page.published_at }}</div>
