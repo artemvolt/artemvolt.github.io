@@ -15,9 +15,7 @@ layout: default
       <img src="/images/articles/{{ page.preview_image }}">
     </div>
     {% if page.source %}
-      <div class="author-image">
-        Автор фото <a target="_blank" href="{{ page.source.author.link }}">{{ page.source.author.name }}</a> с сайта <a target="_blank" href="{{ page.source.image.link }}">Unsplash</a>
-      </div>
+      {% include source_image.html authorName=page.source.author.name authorLink=page.source.author.link imageLink=page.source.image.link %}
     {% endif %}
   {% endif %}
 

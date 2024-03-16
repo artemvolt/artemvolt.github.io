@@ -12,6 +12,9 @@ title: Блог Волторнистого Артёма
                 <div class="preview-image">
                     <img src="/images/articles/{{ post.preview_image }}">
                 </div>
+                {% if post.source %}
+                    {% include source_image.html authorName=post.source.author.name authorLink=post.source.author.link imageLink=post.source.image.link %}
+                {% endif %}
             {% endif %}
             <div class="published-at">
                 <div class="btn btn-primary disabled btn-sm">{{ post.published_at }}</div>
